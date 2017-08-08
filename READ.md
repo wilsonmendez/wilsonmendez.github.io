@@ -1,1 +1,1 @@
-I developed this restaurant website to showcase my skills using html, css and javascript as a requirement to receive my Project Code certificate of completion.   
+I developed this restaurant website to showcase my skills using html, css and javascript as a requirement to receive my Project Code Phase 1 certificate of completion from the New York Public library TechConnect Department.  
