@@ -2,62 +2,51 @@
   
   
   
-
- body#body1 {
-    background: url("photos/restaurant-783093_1920.jpg ");
-    background-size: 960px 940px; 
+  #body1 {
+    background: url("photos/restaurant-783093_1920.jpg");
+  background-size: cover;                     
     background-repeat: no-repeat;
-    background-position: 
-    center; 
-    width:960px;
+    background-position:center; 
+    width:900px;
     border: px solid #000000;
-    margin-top: 100px;
-    margin-bottom:100px;
+    margin-top: 0px;
+    margin-bottom:0px;
     margin-right: auto;
     margin-left: auto;
-    background-color: #ffffff;
+    background-color: 0;
+      height:auto; 
 }
 
-.header1 {color: white; 
+.wrap1 { width: 900px;
+    margin: 0px auto;
+    overflow:0;
+    position:relative;
+    top:10px;
+    bottom: auto; 
+    
+    
+    
+}
+ 
+
+.header1 {
+    
+    color: white; 
     text-align: center; 
     font-family:Verdana;
-    background-color:#8C001A; 
-}
-
-p#p1 {font-size: 35px;
-     font-weight: bolder;
-    
-}
-
-
- a#l11 { text-decoration:none;
-     color:#ffffff;
-     font-family:Verdana;
-     font-weight: bolder;
-    }
-
-.container1{ 
+    background-color: #8C001A; 
     width: 100%;
-    border:1px; 
-    margin:auto;
-    height:100%;
+    top: 10px;
+    left: 0;
+    position:absolute;
+    font-size: 35px; 
+    font-weight: bolder; 
     
     
-}
-
-ul#ul1{ text-align:center;
-
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #000000;
-}
-
-li#li1 {    display: inline-block;
-
-   
-}
+    
+       }
+    
+    
 
 li a.a1 {font-family: Verdana;font-weight:bold;
     display: block;
@@ -65,6 +54,7 @@ li a.a1 {font-family: Verdana;font-weight:bold;
     text-align: center;
     padding: 1px 16px;
     text-decoration: none;
+    
 }
 
 li a:hover:not(.active).aa1 {color:#8C001A;
@@ -76,35 +66,86 @@ li a:hover:not(.active).aa1 {color:#8C001A;
 }
 
 
-div.side1 { display:relative; border-top-left-radius: 10px;
-    text-indent:20px;
+#p1 {font-size: 35px;
+     font-weight: bolder;
+    
+}
+
+#ul {
+   background:black;
+    
+    
+}
+
+ #l1 {
+     text-decoration:none;
+     color:#ffffff;
+     font-family:Verdana;
+     font-weight: bolder;
+     
+     
+    }
+
+.container1 {
+     width:100%;
+    margin:auto;
+    height:100%;
+    
+}  
+
+
+.nav1 {
+    
+    color:#ffffff;
+    background-color:#000000; 
+    text-align: center;
+   top: 63px;
+    left: 0;
+    position:absolute; 
+    width:100%;
+     margin-bottom: 0px;
+   
+      }
+
+.nav1 li{ 
+    
+    display:inline-block; 
+    background-color:#000000;
+    padding: 5px 10px;
+}
+
+
+div.side1 { 
+    text-indent:40px;
     text-align:left;
 }
 
 .side1  {
     display:inline-block; 
-    color:white#ffffff;
+    color:#ffffff;
     width:300px; 
-    height: 200px; 
-    opacity:;
+    height:200px; 
+    background-color:#000000;
+    
     background: rgb(200, 54, 54); /* The Fallback */
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.4);
     }   
 
  
 
 
-.square1 {list-style-type: none; font-size: larger;color:#ffffff; 
-      text-indent:40px;
-     font-family:Verdana;
-     font-weight: bolder;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    
+.square1 {
+       list-style-type: none;
+       font-size: larger;color:#ffffff; 
+       text-indent:40px;
+       font-family:Verdana;
+       font-weight: bolder;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
 }
 
-ul#ul11 {
+#ul1 {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -117,22 +158,31 @@ text-align: center;
 
     }
 
-.main1  { display:inline-block;  
+.main1  { 
+    display:inline-block;  
     width:500px; font-family: Verdana;  
     height:600px; color: #ffffff; 
      }
      
-     #main1 {font-size: 0px;
-         color:0;
+     #main1 {
+         font-size:0px;
+         color:white;
      }
      
 
 .footer1 {
-    color:#ffffff; padding:.0px;
-        text-align:center;
-        background-color: black;
-        clear:both;
-}
+    
+  position: fixed;
+  bottom: 10px;
+  height: px; 
+  background-color: black;
+  color:#ffffff;
+  text-align:center;
+  font-size: 25px;
+  font-weight: 700;
+  width: 900px;
+ 
+          }
 
 
 
@@ -158,8 +208,10 @@ text-align: center;
 
     .wrap2 {
     width: 960px;
-    margin: 0px auto;
+    margin:-80px auto;
     overflow:0;
+        
+        
 }
    
     
@@ -309,7 +361,6 @@ div.side2{
 
 
 
-
 /*---------end of menu css---------*/
 
 
@@ -331,10 +382,9 @@ div.side2{
         }
     
     .wrap3{
-        
     width: 960px;
-    margin: 0px auto;
-    overflow: 0;
+    margin: -80px auto;
+    overflow:0;
 }
     
     
@@ -524,11 +574,10 @@ div.relative033 {
     background-color: white;
         }
     .wrap4   {
-        width: 960px;
-        margin: 0px auto;
-        overflow:0 ;
+    width: 960px;
+    margin:-80px auto;
+    overflow:0;
 }
-    
     
         
 .header4 {
@@ -690,39 +739,45 @@ top:-1051px;
 
 
 #body5 {
-    width:1500px;
-    height:590px;
+    width:700px;
+    height:150px;
     background-image: url("photos/beer-1777934_960_720.png");
-    background-size: 1500px 960px; 
+    background-size: 800px 500px; 
     background-repeat: no-repeat;
-    background-position: center; 
-    width:1300px;
-    margin-top: auto;
-    margin-bottom:auto;
+    background-position: center;
+    position:relative;
+    margin-top: 330px;
+    margin-bottom:center;
     margin-right: auto;
     margin-left: auto;
     background-color: #FFFFFF;
+    overflow-x:hidden;
+    overflow-y:hidden;
         }
     
     
 .ex5 { 
+    padding:10px; 
     font-family:Verdana;
-    position: relative; 
-    margin: auto;
-    width: 100%; 
-    top:100px;
+    position: absolute;
+    top:-200px;
+    width:100%; 
     background-color:#000000;
-    font-size: 100px; 
+    border-radius: 25px;
+    font-size: 55px; 
     font-weight: bolder; 
     color: #FFFFFF;
     text-shadow: 2px 4px 4px #808080;
     text-align:center;
-    margin-top: 10cm;
+    background: rgb(200, 54, 54); /* The Fallback */
+    background: rgba(0, 0, 0, 0.4);
+   
 }
 
 #l5 {
-    font-size: 50px;
+    font-size: 40px;
     text-decoration:none; 
     color:#000000;
-    font-weight: bolder; 
+    font-weight: bolder;
+   
 }
